@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/guilidbr/JScomTDD/issues"
   },
-  "homepage": "https://github.com/guilidbr/JScomTDD#readme"
+  "homepage": "https://github.com/guilidbr/JScomTDD#readme",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  }
 }
