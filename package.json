@@ -4,6 +4,8 @@
   "description": "Biblioteca do curso de JS com TDD",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush" : "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,12 @@
   },
   "homepage": "https://github.com/guilidbr/JScomTDD#readme",
   "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
     "gitignore": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.0.1"
   }
 }
